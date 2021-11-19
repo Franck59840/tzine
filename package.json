@@ -1,6 +1,6 @@
 {
-  "name": "tzine",
   "homepage": "http://Franck59840.github.io/tzine",
+  "name": "tzine",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
