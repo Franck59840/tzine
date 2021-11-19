@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/tzine/static/css/main.1a6d6961.chunk.css",
+    "main.js": "/tzine/static/js/main.335f86b5.chunk.js",
+    "main.js.map": "/tzine/static/js/main.335f86b5.chunk.js.map",
+    "runtime-main.js": "/tzine/static/js/runtime-main.17e425b8.js",
+    "runtime-main.js.map": "/tzine/static/js/runtime-main.17e425b8.js.map",
+    "static/js/2.eb21dc39.chunk.js": "/tzine/static/js/2.eb21dc39.chunk.js",
+    "static/js/2.eb21dc39.chunk.js.map": "/tzine/static/js/2.eb21dc39.chunk.js.map",
+    "static/js/3.c9bc454d.chunk.js": "/tzine/static/js/3.c9bc454d.chunk.js",
+    "static/js/3.c9bc454d.chunk.js.map": "/tzine/static/js/3.c9bc454d.chunk.js.map",
+    "index.html": "/tzine/index.html",
+    "static/css/main.1a6d6961.chunk.css.map": "/tzine/static/css/main.1a6d6961.chunk.css.map",
+    "static/js/2.eb21dc39.chunk.js.LICENSE.txt": "/tzine/static/js/2.eb21dc39.chunk.js.LICENSE.txt",
+    "static/media/Logo.b32a7d29.png": "/tzine/static/media/Logo.b32a7d29.png",
+    "static/media/App.css": "/tzine/static/media/backgroung.d57e2a47.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.17e425b8.js",
+    "static/js/2.eb21dc39.chunk.js",
+    "static/css/main.1a6d6961.chunk.css",
+    "static/js/main.335f86b5.chunk.js"
+  ]
+}
