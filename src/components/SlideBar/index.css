@@ -1,45 +1,90 @@
-.side-menu{
-    position: fixed;
-    background: var(--first-color);
-    width: 300px;
-    height: 100%;
-    box-sizing: border-box;
-    padding: 20px 20px;
+/*active*/
+
+.sideMenu {
+  position: fixed;
+  background: var(--first-color);
+  width: 250px;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 20px 20px;
+  transition: width 0.2s ease-in;
 }
 
-/*.side-menu.inactive{
-    width: 80Px;
-}*/
-.side-menu .top-section{
-    position: relative;
+.sideMenu .topSection {
+  position: relative;
 }
-.side-menu .top-section .logo{
-    width: 230px;
-    height: 120px;
-    overflow: hidden;
-    display: inline-block;
+
+.logo {
+  margin-top: 10%;
 }
-.side-menu .top-section .logo img{
-    max-width: 100%;
-    max-height: 100%;
+.sidMenu .topSection .logo {
+  width: 230px;
+  height: 120px;
+  overflow: hidden;
+  display: inline-block;
 }
-.side-menu .top-section .toggle-menu-button{
-    color: white;
-    font-size: 25px;
-    position: absolute;
-    top: 20%;
-    right: 0;
-    transform: translateY(-20%);
+
+.sideMenu .topSection .logo img {
+  max-width: 100%;
+  max-height: 100%;
 }
-.menu-social{
-    margin-top: 5%;
-    display: flex;
-    justify-content: space-between;
+
+.sideMenu .topSection .toggleMenuButton {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: -13%;
+  right: 0;
+  transform: translateY(-20%);
 }
-.separation{
-    width: 100%;
-    height: 1px;
-    border-radius: 1px;
-    background-color:white;
-    margin-top: 10%;
+
+.menuSocial {
+  margin-top: 5%;
+}
+
+.logoSocial {
+  margin-right: 10px;
+  height: 35px;
+  width: 35px;
+}
+
+.separation {
+  width: 100%;
+  height: 1px;
+  border-radius: 1px;
+  background-color: white;
+  margin-top: 10%;
+}
+.mainMenu {
+  margin-top: 10%;
+}
+
+.sideMenu .mainMenu .menuItem {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.sideMenu .mainMenu .menuItem .menuIcon {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+}
+
+.menuIcon {
+  margin-right: 5%;
+}
+
+/*inactive*/
+.sideMenu.inactive {
+  width: 80px;
+}
+
+.logoSocial.inactive {
+  display: flex;
+  flex-direction: column;
+}
+
+.sideMenu.inactive .topSection .toggleMenuButton {
+  right: -60px;
 }
