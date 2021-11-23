@@ -1,5 +1,4 @@
 /*active*/
-
 .sideMenu {
   position: fixed;
   background: var(--first-color);
@@ -17,6 +16,7 @@
 .logo {
   margin-top: 10%;
 }
+
 .sidMenu .topSection .logo {
   width: 230px;
   height: 120px;
@@ -54,27 +54,57 @@
   border-radius: 1px;
   background-color: white;
   margin-top: 10%;
+  margin-bottom: 10%;
 }
+
 .mainMenu {
   margin-top: 10%;
+}
+
+.menuItem .icon {
+  padding-right: 5px;
 }
 
 .sideMenu .mainMenu .menuItem {
   color: white;
   text-decoration: none;
   font-size: 30px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
 }
 
 .sideMenu .mainMenu .menuItem .menuIcon {
   display: inline-block;
-  width: 40px;
-  height: 40px;
+  text-align: center;
 }
 
-.menuIcon {
-  margin-right: 5%;
+.sideMenu .mainMenu .menuItem span {
+  position: absolute;
+  display: inline-block;
+  line-height: 40px;
+  margin-left: 10px;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
 }
 
+.sideMenuFooter {
+  width: 100%;
+  height: 80px;
+  background: var(--second-color-50);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.textFooter {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-self: flex-end;
+}
 /*inactive*/
 .sideMenu.inactive {
   width: 80px;
@@ -87,4 +117,20 @@
 
 .sideMenu.inactive .topSection .toggleMenuButton {
   right: -60px;
+}
+
+.sideMenu.inactive .mainMenu .menuItem span {
+  opacity: 0;
+}
+
+.sideMenu.inactive .mainMenu .menuItem .icon {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+}
+
+.sideMenu.inactive .mainMenu .menuItem .menuFooter .textFooter {
+  border: springgreen 1px solid;
 }
