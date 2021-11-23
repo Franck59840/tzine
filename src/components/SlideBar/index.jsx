@@ -32,50 +32,76 @@ function SliderBar() {
         <img className='logoSocial' src={twitch} alt='logoTwitch' />
       </div>
       <div className='separation'></div>
-      <div className='mainMenu'>
+      <section className='mainMenu'>
         <ul>
           <li>
             <a href='#' className='menuItem'>
               <div className='menuIcon'>
-                <i class='bi bi-house-fill'></i>
+                <img
+                  className='icon'
+                  src='https://img.icons8.com/bubbles/40/000000/home-page.png'
+                  alt='acceuil'
+                />
+                <span>Accueil</span>
               </div>
-              Accueil
             </a>
           </li>
           <li>
             <a href='#' className='menuItem'>
               <div className='menuIcon'>
-                <i class='bi bi-info-circle'></i>
+                <img
+                  className='icon'
+                  src='https://img.icons8.com/bubbles/40/000000/about.png'
+                  alt='infos'
+                />
+                <span>Qui suis-je ?</span>
               </div>
-              Qui suis-je ?
             </a>
           </li>
           <li>
             <a href='#' className='menuItem'>
               <div className='menuIcon'>
-                <i class='bi bi-house-fill'></i>
+                <img
+                  className='icon'
+                  src='https://img.icons8.com/external-victoruler-linear-colour-victoruler/40/000000/external-swords-chess-victoruler-linear-colour-victoruler.png'
+                  alt='tournoi'
+                />
+                <span>Tournoi</span>
               </div>
-              Tournoi
             </a>
           </li>
           <li>
             <a href='#' className='menuItem'>
               <div className='menuIcon'>
-                <i class='bi bi-house-fill'></i>
+                <img
+                  className='icon'
+                  src='https://img.icons8.com/bubbles/40/000000/handshake.png'
+                  alt=' partenaires'
+                />
+                <span>Nos partenaires</span>
               </div>
-              Nos partenaires
             </a>
           </li>
           <li>
             <a href='#' className='menuItem'>
               <div className='menuIcon'>
-                <i class='bi bi-envelope-fill'></i>
+                <img
+                  className='icon'
+                  src='https://img.icons8.com/bubbles/40/000000/apple-mail.png'
+                  alt='contact'
+                />
+                <span>Nous contacter</span>
               </div>
-              Nous contacter
             </a>
           </li>
         </ul>
-      </div>
+      </section>
+      <section className='sideMenuFooter'>
+        <div className='textFooter'>
+          <p>Copyight 2021</p>
+          <p>Made by Depoorter Franck</p>
+        </div>
+      </section>
     </div>
   );
 }
