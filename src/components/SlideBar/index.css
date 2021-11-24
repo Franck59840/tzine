@@ -97,14 +97,6 @@
   left: 0;
 }
 
-.textFooter {
-  margin-left: 20px;
-  margin-right: 10px;
-  margin-top: 50px;
-  display: flex;
-  justify-content: space-between;
-  align-self: flex-end;
-}
 /*inactive*/
 .sideMenu.inactive {
   width: 80px;
@@ -129,8 +121,4 @@
   text-align: center;
   width: 50px;
   height: 50px;
-}
-
-.sideMenu.inactive .mainMenu .menuItem .menuFooter .textFooter {
-  border: springgreen 1px solid;
 }
