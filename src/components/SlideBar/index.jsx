@@ -35,7 +35,7 @@ function SliderBar() {
       <section className='mainMenu'>
         <ul>
           <li>
-            <a href='#' className='menuItem'>
+            <a href='1' className='menuItem'>
               <div className='menuIcon'>
                 <img
                   className='icon'
@@ -47,7 +47,7 @@ function SliderBar() {
             </a>
           </li>
           <li>
-            <a href='#' className='menuItem'>
+            <a href='2' className='menuItem'>
               <div className='menuIcon'>
                 <img
                   className='icon'
@@ -59,7 +59,7 @@ function SliderBar() {
             </a>
           </li>
           <li>
-            <a href='#' className='menuItem'>
+            <a href='2' className='menuItem'>
               <div className='menuIcon'>
                 <img
                   className='icon'
@@ -71,7 +71,7 @@ function SliderBar() {
             </a>
           </li>
           <li>
-            <a href='#' className='menuItem'>
+            <a href='3' className='menuItem'>
               <div className='menuIcon'>
                 <img
                   className='icon'
@@ -83,7 +83,7 @@ function SliderBar() {
             </a>
           </li>
           <li>
-            <a href='#' className='menuItem'>
+            <a href='4' className='menuItem'>
               <div className='menuIcon'>
                 <img
                   className='icon'
@@ -98,8 +98,8 @@ function SliderBar() {
       </section>
       <section className='sideMenuFooter'>
         <div className='textFooter'>
-          <p>Copyight 2021</p>
-          <p>Made by Depoorter Franck</p>
+          <h2>Copyight 2021</h2>
+          <h2>Made by Depoorter Franck</h2>
         </div>
       </section>
     </div>
