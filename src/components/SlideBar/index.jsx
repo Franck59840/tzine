@@ -19,9 +19,9 @@ function SliderBar() {
         >
           {' '}
           {inactive ? (
-            <i class='bi bi-arrow-right-square-fill'></i>
+            <i className='bi bi-arrow-right-square-fill'></i>
           ) : (
-            <i class='bi bi-arrow-left-square-fill'></i>
+            <i className='bi bi-arrow-left-square-fill'></i>
           )}{' '}
         </div>
       </div>
