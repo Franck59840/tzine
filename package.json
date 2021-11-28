@@ -1,8 +1,8 @@
 {
-  "homepage": "https://tzine.netlify.app/",
   "name": "tzine",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/Franck59840/Tzine",
   "dependencies": {
     "@testing-library/jest-dom": "^5.15.0",
     "@testing-library/react": "^11.2.7",
