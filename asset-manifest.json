@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/tzine/static/css/main.5c15cd47.chunk.css",
-    "main.js": "/tzine/static/js/main.03d46f69.chunk.js",
-    "main.js.map": "/tzine/static/js/main.03d46f69.chunk.js.map",
-    "runtime-main.js": "/tzine/static/js/runtime-main.f96e2913.js",
-    "runtime-main.js.map": "/tzine/static/js/runtime-main.f96e2913.js.map",
-    "static/js/2.2f15e87f.chunk.js": "/tzine/static/js/2.2f15e87f.chunk.js",
-    "static/js/2.2f15e87f.chunk.js.map": "/tzine/static/js/2.2f15e87f.chunk.js.map",
-    "static/js/3.1c2a07da.chunk.js": "/tzine/static/js/3.1c2a07da.chunk.js",
-    "static/js/3.1c2a07da.chunk.js.map": "/tzine/static/js/3.1c2a07da.chunk.js.map",
-    "index.html": "/tzine/index.html",
-    "static/css/main.5c15cd47.chunk.css.map": "/tzine/static/css/main.5c15cd47.chunk.css.map",
-    "static/js/2.2f15e87f.chunk.js.LICENSE.txt": "/tzine/static/js/2.2f15e87f.chunk.js.LICENSE.txt",
-    "static/media/Logo.b32a7d29.png": "/tzine/static/media/Logo.b32a7d29.png",
-    "static/media/App.css": "/tzine/static/media/backgroung.d57e2a47.png"
+    "main.css": "/Franck59840/tzine/static/css/main.697d590d.chunk.css",
+    "main.js": "/Franck59840/tzine/static/js/main.adb3a094.chunk.js",
+    "main.js.map": "/Franck59840/tzine/static/js/main.adb3a094.chunk.js.map",
+    "runtime-main.js": "/Franck59840/tzine/static/js/runtime-main.fea6f08c.js",
+    "runtime-main.js.map": "/Franck59840/tzine/static/js/runtime-main.fea6f08c.js.map",
+    "static/js/2.2f15e87f.chunk.js": "/Franck59840/tzine/static/js/2.2f15e87f.chunk.js",
+    "static/js/2.2f15e87f.chunk.js.map": "/Franck59840/tzine/static/js/2.2f15e87f.chunk.js.map",
+    "static/js/3.1c2a07da.chunk.js": "/Franck59840/tzine/static/js/3.1c2a07da.chunk.js",
+    "static/js/3.1c2a07da.chunk.js.map": "/Franck59840/tzine/static/js/3.1c2a07da.chunk.js.map",
+    "index.html": "/Franck59840/tzine/index.html",
+    "static/css/main.697d590d.chunk.css.map": "/Franck59840/tzine/static/css/main.697d590d.chunk.css.map",
+    "static/js/2.2f15e87f.chunk.js.LICENSE.txt": "/Franck59840/tzine/static/js/2.2f15e87f.chunk.js.LICENSE.txt",
+    "static/media/Logo.b32a7d29.png": "/Franck59840/tzine/static/media/Logo.b32a7d29.png",
+    "static/media/App.css": "/Franck59840/tzine/static/media/backgroung.d57e2a47.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f96e2913.js",
+    "static/js/runtime-main.fea6f08c.js",
     "static/js/2.2f15e87f.chunk.js",
-    "static/css/main.5c15cd47.chunk.css",
-    "static/js/main.03d46f69.chunk.js"
+    "static/css/main.697d590d.chunk.css",
+    "static/js/main.adb3a094.chunk.js"
   ]
 }
