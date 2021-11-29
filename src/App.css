@@ -1,24 +1,13 @@
 :root {
-    --first-color:#1D9BC2;
-    --second-color-50:rgba(3, 176, 0,  0.5);
-    --second-color-100:rgba(3, 176, 0);
+  --first-color: #1d9bc2;
+  --second-color-50: rgba(3, 176, 0, 0.5);
+  --second-color-100: rgba(3, 176, 0);
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-ul{
-    padding: 0;
-    margin: 0;
-}
-li{
-    list-style: none;
-}
-body{
-    font-family: 'Odibee Sans', cursive;
-    background-image: url("../src/components/SlideBar/assets/backgroung.png");
-    background-color: var(--second-color-50);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+body {
+  background-image: url('../src/components/SlideBar/assets/backgroung.png');
+  background-color: var(--second-color-50);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
