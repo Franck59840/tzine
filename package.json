@@ -39,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "deploy-to-github-pages": "^1.0.1",
     "netlify-cli": "^8.0.0"
   }
 }
